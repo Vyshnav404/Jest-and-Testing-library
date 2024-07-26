@@ -8,6 +8,7 @@ export const Application = () => {
          <p>All fields are mandatory</p>
          <span title="close">X</span>
          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFU7U2h0umyF0P6E_yhTX45sGgPEQAbGaJ4g&s" alt="a person with a laptop"/>
+         <div data-testid="custom-element">Custom HTML element</div>
         <div>
             <label htmlFor="name">Name</label>
             <input type="text" id="name" placeholder="Fullname" value="Vyshnav" onChange={()=>{}} />
